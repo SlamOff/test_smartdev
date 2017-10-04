@@ -1,0 +1,440 @@
+body {
+	font: 1.8rem "PTSans", sans-serif;
+	min-width: 320px;
+	font-weight: normal;
+	position: relative;
+	max-width: 2000px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+button {
+	border: none;
+	background: none;
+}
+button, button:focus, button:hover, input, .thumbnail, .slick-slide, img, ul, li, a, a:focus, a:hover, div, div:focus textarea, textarea:focus {
+	outline: none;
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+label.error {
+	color: red;
+}
+.form input::-webkit-input-placeholder {
+	
+}
+.form input::-moz-placeholder {
+	
+}
+.form input:-ms-input-placeholder {
+	
+}
+.form input:-moz-placeholder {
+	
+}
+.form textarea::-webkit-input-placeholder {
+	
+}
+.form textarea::-moz-placeholder {
+	
+}
+.form textarea:-ms-input-placeholder {
+	
+}
+.form textarea:-moz-placeholder {
+	
+}
+.main_btn {
+	height: 70px;
+	border-bottom: solid 6px #ff332a;
+	background-color: #ff621f;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+	cursor: pointer;
+	width: 100%;
+	max-width: 435px;
+}
+.main_btn:hover {
+	color: #fff;
+	background-color: #ff332a;
+}
+.main_btn:focus {
+	color: #fff;
+}
+.container {
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
+}
+.header {
+	text-align: center;
+	padding-top: 30px;
+}
+.header .top_header {
+	border-bottom: 1px solid #000;
+	padding-bottom: 30px;
+}
+.header .top_header h2 {
+	color: #18374b;
+	font-size: 27px;
+	font-weight: normal;
+}
+.header .bottom_header {
+	text-transform: uppercase;
+	padding: 50px 0 40px;
+	font: 34px "Circe", sans-serif;
+	line-height: 1.25;
+}
+.header .bottom_header h1 {
+	color: #ff621f;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.header .bottom_header p {
+	font-size: 30px;
+	color: #020001;
+	margin-bottom: 25px;
+}
+.webinar {
+	padding-bottom: 32px;
+}
+.webinar .container:after {
+	content: "";
+	height: 1px;
+	position: absolute;
+	border-top: 1px dashed #2b2e35;
+	bottom: -32px;
+	left: -20px;
+	width: 1070px;
+}
+.webinar .webinar_main {
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.webinar .webinar_speaker {
+	float: left;
+	position: relative;
+	right: 50%;
+	width: 50%;
+	padding: 36px 20px 30px 30px;
+	background-color: #ff621f;
+	color: #fff;
+}
+.webinar .webinar_info {
+	float: left;
+	position: relative;
+	left: 50%;
+	width: 50%;
+	padding: 30px 18px 30px 36px;
+	background-color: #eaeaea;
+	color: #2b2e35;
+}
+.webinar .webinar_format {
+	font: 24px "Georgia", sans-serif;
+	font-style: italic;
+	text-align: center;
+	margin: 50px 0;
+}
+.webinar .webinar_format span {
+	font-size: 30px;
+}
+.webinar .webinar_for {
+	font-size: 36px;
+	text-align: center;
+}
+.webinar .webinar_for h3 {
+	line-height: 56px;
+	max-width: 382px;
+	margin: 0 auto;
+	background-color: #ff621f;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.webinar .webinar_for p {
+	color: #2b2e35;
+}
+.webinar .calendar {
+	max-width: 120px;
+	height: 125px;
+	background-color: #fff;
+	color: #c2c2c2;
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 73px;
+	font-weight: bold;
+	float: left;
+	margin-right: 25px;
+	width: 33.3%;
+}
+.webinar .calendar span {
+	display: block;
+	position: absolute;
+	width: 100%;
+	line-height: 30px;
+	left: 0;
+	top: 0;
+	background-color: #2b2e35;
+	color: #fff;
+	font-size: 22px;
+}
+.date {
+	float: left;
+	width: 66.7%;
+}
+.date h5 {
+	font: 30px "Circe", sans-serif;
+	font-weight: bold;
+	line-height: 1.18;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	border-bottom: 2px dashed #fff;
+}
+.date h5 span {
+	font-size: 36px;
+}
+.date p {
+	font-size: 24px;
+	padding-top: 15px;
+}
+.webinar_speaker_top:after {
+	display: table;
+	clear: both;
+	content: "";
+}
+.webinar_speaker_middle {
+	padding: 55px 0 30px;
+	text-align: center;
+}
+.webinar_speaker_middle .img_wrapper {
+	width: 202px;
+	height: 202px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+	border: 8px solid #fff;
+	position: relative;
+}
+.webinar_speaker_middle img {
+	position: absolute;
+	left: -78px;
+	right: 0;
+	top: 50px;
+	bottom: 0;
+	margin: auto;
+}
+.webinar_speaker_middle em {
+	display: block;
+	font: 22px "Georgia", sans-serif;
+	font-style: italic;
+	margin: 25px 0 15px;
+}
+.webinar_speaker_middle p {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 22px;
+	line-height: normal;
+}
+.webinar_speaker_bottom {
+	padding-left: 25px;
+}
+.webinar_speaker_bottom ul {
+	padding: 0 25px;
+	list-style-type: disc;
+	font-size: 18px;
+}
+.webinar_speaker_bottom ul li {
+	margin-bottom: 22px;
+}
+.webinar_info_top {
+	font-weight: bold;
+	color: #2b2e35;
+	text-transform: uppercase;
+	padding-bottom: 70px;
+}
+.webinar_info_top h4 {
+	font-size: 21px;
+	text-align: center;
+}
+.webinar_info_top h3 {
+	font-size: 24px;
+}
+.webinar .timer {
+	margin: 20px 0 50px;
+	text-align: center;
+	font-family: "Circe", sans-serif;
+}
+.webinar .timer__item {
+	display: inline-block;
+	width: 67px;
+	height: 67px;
+	margin-right: 6px;
+	background-color: #2b2e35;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 12px;
+}
+.timer-text {
+	color: #2b2e35;
+	position: relative;
+	top: 15px;
+	font-size: 14px;
+}
+.big-numb-time {
+	font-size: 48px;
+	color: #fff;
+}
+.webinar_info_list ul {
+	line-height: 1.25;
+}
+.webinar_info_list ul li {
+	font-size: 24px;
+	color: #2b2e35;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 35px;
+}
+.webinar_info_list ul li:before {
+	width: 21px;
+	height: 17px;
+	content: "";
+	background-image: url("../img/webinar_list_icon.png");
+	position: absolute;
+	left: 0;
+	top: 7px;
+}
+.webinar_info_list ul li span {
+	font-weight: bold;
+}
+.text_info {
+	padding: 60px 0 20px;
+	color: #2b2e35;
+}
+.text_info h3 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.text_info p {
+	font-size: 24px;
+	margin-bottom: 35px;
+	padding-right: 15px;
+}
+.text_info p span {
+	font-size: 27px;
+	font-weight: bold;
+}
+.photo {
+	padding: 25px 0;
+	background-image: url("../img/photo_bg.png");
+	background-repeat: no-repeat;
+	background-position: center -125px;
+	background-color: #efefef;
+}
+.photo .photo_wrapper {
+	height: 606px;
+	border: solid 7px #ff621f;
+	background-color: #efefef;
+	background-image: url("../img/photo.jpg");
+	background-size: 100% 100%;
+}
+.visit {
+	color: #2b2e35;
+	padding-top: 15px;
+}
+.visit .visit_top {
+	font-size: 36px;
+}
+.visit .visit_bottom {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 65px 0 85px;
+}
+.visit .main_btn {
+	width: 100%;
+	max-width: 100%;
+	font-size: 40px;
+}
+.footer {
+	padding: 42px 0 50px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.footer img {
+	padding: 0 2px;
+}
+.
